@@ -15,7 +15,7 @@ TO RUN:
 python3 vtfilescan.py   
 
 output:
-hashes.txt - list of all hashes that have been uploaded to Virus Total 
+hashes.txt - list of all SHA256 hashes that have been uploaded to Virus Total 
 file_log.txt - correlated filenames and hashes 
 
 
@@ -24,5 +24,5 @@ TO RUN:
 python3 vtpullresult.py 
 
 output:
-All results to standard out.  
+All results to standard out. vtpullresult assumes you have a file in the current working directory that is called hashes.txt comprised solely of SHA256 strings. This file does not necessarily have to be created by vtfilescan, which will automatically create the file, so you can test any SHA256 hashes that may have already existed on Virus Total. 
 
