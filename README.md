@@ -18,6 +18,10 @@ This code was tested running:
   python3 --version 
     Python 3.10.6
 
+Ubuntu 22.04.2 LTS
+Release:	22.04
+Codename:	jammy
+
 
 TO RUN:
 
