@@ -10,6 +10,15 @@ Prior to Running:
 
 Input API Key into each python script. Set the working directory for your malware repository in vtfilescan.py
 
+Dependencies:
+sudo apt update
+sudo apt install python3-pip
+pip3 install vt
+This code was tested running:
+  python3 --version 
+    Python 3.10.6
+
+
 TO RUN:
 
 python3 vtfilescan.py   
