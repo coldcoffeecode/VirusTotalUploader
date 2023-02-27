@@ -5,6 +5,7 @@ In order to utilize this service, you need to procure an API Key from https://ww
 There is no charge for basic API access, however, the basic API rate limits the number of files that can be uploaded to one file every 15 seconds.
 Within the upload script, vtfilescan.py, there is a delay built inbetween files to ensure the rate limiting will not
 prevent the script from encountering an error when attempting to upload files. If you purchase a professional API key, you can comment out the delay function.  
+The largest file size for the standard API is 32MB. It is possible to upload files up to 200MB, but this a non-standard API Account.  
 
 Prior to Running:  
   
