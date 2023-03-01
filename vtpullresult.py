@@ -1,5 +1,5 @@
 #VirusTotal Result downloader 
-#Written by coldcoffeecode
+#Written by coldcoffeecode (small data)
 
 import requests
 import json
