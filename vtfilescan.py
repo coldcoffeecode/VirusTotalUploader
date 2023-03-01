@@ -1,5 +1,5 @@
 #VirusTotal File uploader
-#Written by coldcoffeecode
+#Written by coldcoffeecode (small data)
 
 import argparse
 import asyncio
